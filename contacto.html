@@ -66,31 +66,33 @@
 <div class="container-fluid">
     <div class="row">
         <!-- Sección Izquierda: Formulario de Contacto -->
-               <div class="col-md-6 half-screen">
-            <div class="contact-form w-100">
-                <h2 class="text-center mb-4">Contáctanos</h2>
-                <form action="https://formsubmit.co/juanalegriasanchez@gmail.com" method="POST">
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="telefono" class="form-label">Número de Teléfono</label>
-                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                    </div>
-                    <input type="hidden" name="_captcha" value="false">
-        
-                    <!-- Aquí agregamos el parámetro _next con la URL de redirección -->
-                    <input type="hidden" name="_next" value="https://juansanchezalegria.github.io/web/">
-        
-                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
-                </form>
+              <div class="col-md-6 half-screen">
+    <div class="contact-form w-100">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form action="https://formsubmit.co/juanalegriasanchez@gmail.com" method="POST">
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
             </div>
-        </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Número de Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <!-- Aquí eliminamos el parámetro _captcha para probar -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Asegúrate de que esta URL sea correcta y completa -->
+            <input type="hidden" name="_next" value="https://juanalegriasa.github.io/web/">
+
+            <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+        </form>
+    </div>
+</div>
+
 <!-- Sección Derecha: Mapa de Ubicación -->
 <div class="col-md-6 half-screen">
     <div class="container">
